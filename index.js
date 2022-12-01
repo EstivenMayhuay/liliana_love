@@ -11,7 +11,6 @@ $(document).on("click", "#startPresentation", function () {
 
   let dataInterval = setInterval(() => {
     counter -= 1;
-    console.log(counter);
     $("#counter h1").text(counter);
 
     if (counter < 0) {
@@ -23,6 +22,6 @@ $(document).on("click", "#startPresentation", function () {
 });
 
 $(document).on("click", "#goToGustar", function () {
-  $("#quienEsCard").addClass("d-none");
-  $("#gustaDeLilianaCard").removeClass("d-none");
+  // $("#quienEsCard").addClass("d-none");
+  // $("#gustaDeLilianaCard").removeClass("d-none");
 });
