@@ -22,6 +22,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- JSConfetti -->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
@@ -155,21 +158,20 @@
               style="width: 90%; margin: auto"
             >
               <div class="card-body">
-                <h5 class="card-title text-center fw-bold mb-4 display-1">
+                <h5 class="card-title text-center fw-bold mb-4 display-3">
                   Liliana No es Todo
                 </h5>
 
-                <h6 class="card-subtitle mb-2">
-                  <p class="text-dark mb-2">
-                    Todo lo antes dicho no es todo lo que siento, eres para mí
-                    alguién importante, apreció la confianza que me diste el
-                    primer día que te conocí. Te
-                    <strong>Aprecio y Quiero mucho Liliana</strong>
-                  </p>
-                </h6>
+                <p class="text-dark mb-2">
+                  Todo lo antes dicho no es todo lo que siento, eres para mí
+                  alguién importante, apreció la confianza que me diste el
+                  primer día que te conocí. Te<strong
+                    >Aprecio y Quiero mucho Liliana</strong
+                  >
+                </p>
                 <p class="card-text d-flex justify-content-center">
                   <button
-                    id=""
+                    id="goToFinalCard"
                     type="button"
                     class="btn btn-primary w-100 text-white fw-bold"
                   >
@@ -178,7 +180,29 @@
                 </p>
               </div>
             </div>
+
+            <!-- Final Card -->
+            <div
+              class="card d-none"
+              id="finalCard"
+              style="width: 90%; margin: auto"
+            >
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold mb-4 display-3">
+                  Este es el Final
+                </h5>
+
+                <p class="text-dark mb-2">
+                  Espero que el pequeño presente la
+                  <strong>Kokedama</strong> haya sido de tú agrado, representa
+                  el gran aprecio que tengo hacia tí.
+                  <strong>Jamás te Olvidaré</strong>
+                </p>
+              </div>
+            </div>
           </div>
+
+          <canvas id="canvas"></canvas>
         </div>
       </div>
     </div>

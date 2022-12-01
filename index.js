@@ -30,3 +30,16 @@ $(document).on("click", "#goToFeel", function () {
   $("#gustaDeLilianaCard").addClass("d-none");
   $("#lilianaFeelCard").removeClass("d-none");
 });
+
+$(document).on("click", "#goToFinalCard", function () {
+  $("#lilianaFeelCard").addClass("d-none");
+  $("#finalCard").removeClass("d-none");
+
+  const canvas = document.getElementById("canvas");
+
+  const jsConfetti = new JSConfetti({ canvas });
+
+  jsConfetti.addConfetti({
+    emojis: ["🌈", "⚡️", "💥", "✨", "💫", "🌸"],
+  });
+});
