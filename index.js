@@ -22,6 +22,6 @@ $(document).on("click", "#startPresentation", function () {
 });
 
 $(document).on("click", "#goToGustar", function () {
-  // $("#quienEsCard").addClass("d-none");
-  // $("#gustaDeLilianaCard").removeClass("d-none");
+  $("#quienEsCard").addClass("d-none");
+  $("#gustaDeLilianaCard").removeClass("d-none");
 });
