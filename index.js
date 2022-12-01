@@ -1,6 +1,6 @@
 let audio = $("#audioLiliana");
 let mainContent = $("#app");
-let counter = 2;
+let counter = 11;
 
 $(document).on("click", "#startPresentation", function () {
   // Play Audio
@@ -18,7 +18,7 @@ $(document).on("click", "#startPresentation", function () {
       $("#counter").addClass("d-none");
       $("#quienEsCard").removeClass("d-none");
     }
-  }, 1001);
+  }, 1000);
 });
 
 $(document).on("click", "#goToGustar", function () {
