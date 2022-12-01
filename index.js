@@ -25,3 +25,8 @@ $(document).on("click", "#goToGustar", function () {
   $("#quienEsCard").addClass("d-none");
   $("#gustaDeLilianaCard").removeClass("d-none");
 });
+
+$(document).on("click", "#goToFeel", function () {
+  $("#gustaDeLilianaCard").addClass("d-none");
+  $("#lilianaFeelCard").removeClass("d-none");
+});
