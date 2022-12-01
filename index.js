@@ -1,6 +1,6 @@
 let audio = $("#audioLiliana");
 let mainContent = $("#app");
-let counter = 11;
+let counter = 24;
 
 $(document).on("click", "#startPresentation", function () {
   // Play Audio
