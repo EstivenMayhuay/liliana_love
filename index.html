@@ -21,17 +21,54 @@
       integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
       crossorigin="anonymous"
     ></script>
+
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div class="content" style="outline: 2px solid blue">
-      <div class="container-fluid">
-        <div class="row">
+    <div class="content" style="min-height: 100vh">
+      <div class="container-fluid" style="min-height: 100vh">
+        <div
+          class="row justify-content-center align-items-center"
+          style="min-height: 100vh"
+        >
           <div class="col-sm">
-            <h1>hola</h1>
+            <div class="card" style="width: 90%; margin: auto">
+              <!-- <div class="contentImg">
+                <img src="./img/lili2.png" class="card-img-top" alt="..." />
+              </div> -->
+              <div class="card-body">
+                <h5 class="card-title">Para Liliana Pachón</h5>
+
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <strong>Mi Crush</strong>
+                </h6>
+                <p class="card-text">
+                  Este pequeño presente es para ti Liliana
+                  <strong>una mujer bella</strong> en lo físico y emocional
+                </p>
+                <p class="card-text d-flex justify-content-center">
+                  <button
+                    id="startPresentation"
+                    type="button"
+                    class="btn btn-primary w-100 text-white fw-bold"
+                  >
+                    Empezar
+                  </button>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Audio -->
+    <audio
+      src="./audio/rumberos.mp3"
+      controls
+      class="d-none"
+      id="audioLiliana"
+    ></audio>
 
     <script src="./index.js"></script>
   </body>
