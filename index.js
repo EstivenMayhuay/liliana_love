@@ -6,7 +6,7 @@ $(document).on("click", "#startPresentation", function () {
   // Play Audio
   $(audio)[0].play();
 
-  $("#mainCard").hide(200);
+  $("#mainCard").addClass("d-none");
   $("#counter").removeClass("d-none");
 
   let dataInterval = setInterval(() => {
