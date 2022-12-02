@@ -51,5 +51,5 @@ $(document).on("click", "#goToFinalCard", function () {
     $(".content .container-fluid .row #app").html(`
       <h1 class="text-center col-12 text-white fw-bold" style="font-size: 3.5rem">ADIÓS ❤️</h1>
     `);
-  }, 4000);
+  }, 5000);
 });
