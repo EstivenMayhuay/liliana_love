@@ -42,5 +42,5 @@ $(document).on("click", "#goToFinalCard", function () {
     jsConfetti.addConfetti({
       emojis: ["🌸"],
     });
-  }, 400);
+  }, 1000);
 });
