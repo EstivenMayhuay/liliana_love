@@ -1,5 +1,3 @@
-const canvas = document.getElementById("canvas");
-const jsConfetti = new JSConfetti({ canvas });
 let audio = $("#audioLiliana");
 let mainContent = $("#app");
 let counter = 24;
@@ -36,6 +34,9 @@ $(document).on("click", "#goToFeel", function () {
 $(document).on("click", "#goToFinalCard", function () {
   $("#lilianaFeelCard").addClass("d-none");
   $("#finalCard").removeClass("d-none");
+
+  const canvas = document.getElementById("canvas");
+  const jsConfetti = new JSConfetti({ canvas });
 
   setInterval(() => {
     jsConfetti.addConfetti({
