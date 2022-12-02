@@ -40,7 +40,7 @@ $(document).on("click", "#goToFinalCard", function () {
 
   setInterval(() => {
     jsConfetti.addConfetti({
-      emojis: ["🌈", "🌸"],
+      emojis: ["🌸"],
     });
-  }, 1000);
+  }, 400);
 });
